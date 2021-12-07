@@ -1,1 +1,11 @@
 /* Write your CSS here */
+.arrowIcon {
+  width: 20px;
+}
+.suggetion-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}

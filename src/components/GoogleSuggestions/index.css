@@ -1,1 +1,79 @@
 /* Write your CSS here */
+
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .searchIcon {
+    width: 18px;
+    border-radius: 15px;
+  }
+  .imputEl {
+    width: 250px;
+    border-style: none;
+    outline: none;
+    color: #000000;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  .inputEl-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 280px;
+  }
+  .list-container {
+    width: 280px;
+    padding: 0px;
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 450px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+  .searchIcon {
+    width: 30px;
+    border-radius: 15px;
+  }
+  .imputEl {
+    width: 500px;
+    border-style: none;
+    outline: none;
+    color: #000000;
+    height: 55px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 4px 16px 0px #5f5c5c;
+  }
+  .inputEl-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 550px;
+  }
+  .list-container {
+    width: 530px;
+    padding: 0px;
+    list-style-type: none;
+  }
+}
